@@ -7,20 +7,20 @@ class Contextception < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/kehoej/contextception/releases/download/v1.0.0/contextception_darwin_arm64.tar.gz"
-      sha256 "ea725e6a6d68cf87022176ff9699843de7a1b29acb45cbf1bd302c592d39308b"
+      sha256 "a46cdd81606ef327ecc5add80f9c0879750aa7fce58f6fe6d94e12d3ca986a5f"
     else
       url "https://github.com/kehoej/contextception/releases/download/v1.0.0/contextception_darwin_amd64.tar.gz"
-      sha256 "56d1bf785753042ea7f699934ea4facb88f574e9a866ba131d0184bf3924b694"
+      sha256 "dc8195658df76e5b5d7fcbf8eff19cd3bbd153b9c84caf52ea8911de90b040e1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/kehoej/contextception/releases/download/v1.0.0/contextception_linux_arm64.tar.gz"
-      sha256 "64690af50c72501a25edc0241d491754d17cdcc4e5327caea47cae61c24bc0a3"
+      sha256 "4f03da2c4979a0ece6381f7039e3e4b68e9fe7ee4a131261645208099628abb2"
     else
       url "https://github.com/kehoej/contextception/releases/download/v1.0.0/contextception_linux_amd64.tar.gz"
-      sha256 "5f414a074f78fbcf27a714efd7edb9961c2352dbba72576110045651bd70e49c"
+      sha256 "c571b4e9ce33ba865961de5d98f5ed5e7772ccde42d5f5a9e1d1ed292ca56a40"
     end
   end
 
