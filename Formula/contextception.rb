@@ -1,26 +1,26 @@
 class Contextception < Formula
   desc "Deterministic context intelligence for code. Know what must be understood before making a safe change."
   homepage "https://github.com/kehoej/contextception"
-  version "1.0.4"
+  version "1.0.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/kehoej/contextception/releases/download/v1.0.4/contextception_darwin_arm64.tar.gz"
-      sha256 "3f39a45dfb8e27121fa0395b42d35bd06763d302089be011b9fe87fb8a85e5d1"
+      url "https://github.com/kehoej/contextception/releases/download/v1.0.5/contextception_darwin_arm64.tar.gz"
+      sha256 "82cc661fec845f2a2b1797a2b8f8a5bf70eb47a55af0435e575bdc2726ca756f"
     else
-      url "https://github.com/kehoej/contextception/releases/download/v1.0.4/contextception_darwin_amd64.tar.gz"
-      sha256 "f42d6314a4af769b7a7975fff4c427d066eca7b21b366a2225a5dededa9282e9"
+      url "https://github.com/kehoej/contextception/releases/download/v1.0.5/contextception_darwin_amd64.tar.gz"
+      sha256 "ab8cc955320c21eaf4cb69e41ec8ee9fef78f4fddc3cf1dd5471c9fbe63c8d3f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/kehoej/contextception/releases/download/v1.0.4/contextception_linux_arm64.tar.gz"
-      sha256 "dd85478c11e99e462a2a0b336a8c4dcd42d04b0dadcdbb9759fddb71c8a63425"
+      url "https://github.com/kehoej/contextception/releases/download/v1.0.5/contextception_linux_arm64.tar.gz"
+      sha256 "4527f86b00c836a4a691702c20dfdd253b8c214462b3c198f93258131ffe8668"
     else
-      url "https://github.com/kehoej/contextception/releases/download/v1.0.4/contextception_linux_amd64.tar.gz"
-      sha256 "0dea01c20b614b5838147b2a27f08bc661c718deebb4cb7142aaee21d5c1ece6"
+      url "https://github.com/kehoej/contextception/releases/download/v1.0.5/contextception_linux_amd64.tar.gz"
+      sha256 "e1fe1bb2a08abb77ad17b4ad94bf7202092161cc6c8d7dc265fbcac84469b8cb"
     end
   end
 
